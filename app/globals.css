@@ -59,6 +59,10 @@
   }
 }
 
+.auth {
+  @apply flex justify-center items-center  min-h-screen w-full;
+}
+
 @layer base {
   * {
     @apply border-border;
