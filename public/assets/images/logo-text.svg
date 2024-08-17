@@ -5,7 +5,7 @@
       <stop offset="100%" style="stop-color:#002F6C;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <text x="10" y="50" font-family="Arial" font-size="50" fill="url(#blueGradient)">
+  <text x="10" y="50" font-family="Arial" font-size="70" fill="url(#blueGradient)">
     ImageRestore
   </text>
 </svg>
