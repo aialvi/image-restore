@@ -7,11 +7,8 @@ import NavBar from '@/components/landing/navbar';
 import { PricingSection } from '@/components/landing/pricing';
 import { ServicesSection } from '@/components/landing/services';
 import { TestimonialSection } from '@/components/landing/testimonial';
-import { getAllImages } from '@/lib/actions/image.action';
 
 const Home = async ({ searchParams }: SearchParamProps) => {
-  const page = Number(searchParams?.page) || 1;
-  const searchQuery = (searchParams?.query as string) || '';
   return (
     <>
       <NavBar />
