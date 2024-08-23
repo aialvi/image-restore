@@ -1,4 +1,4 @@
-# ImageRetouch App
+# ImageRestore App
 
 This is an image retouching application built using [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Shadcn](https://github.com/shadcn), [Clerk](https://clerk.com/), and [Stripe](https://stripe.com/). The app leverages AI-based tools for image enhancement, including features such as image restoration, generative fill, object removal, object recoloring, and background removal.
 
