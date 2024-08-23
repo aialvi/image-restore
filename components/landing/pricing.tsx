@@ -79,7 +79,7 @@ export const PricingSection = () => {
       </h2>
 
       <h2 className='text-3xl md:text-4xl text-center font-bold mb-4'>
-        Get unlimitted access
+        Get unlimited access
       </h2>
 
       <h3 className='md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14'>
