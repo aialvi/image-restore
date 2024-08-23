@@ -5,7 +5,7 @@ const NavBar = () => {
   const navLinks = [
     { label: 'Pricing', route: '/pricing' },
     { label: 'Gallery', route: '/gallery' },
-    { label: 'Login', route: '/login' },
+    { label: 'Login', route: '/sign-in' },
   ];
   return (
     <nav className='hidden md:flex items-center justify-between w-full px-8 py-4 bg-white shadow-md'>
