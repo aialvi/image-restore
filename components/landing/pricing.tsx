@@ -74,15 +74,15 @@ const plans: PlanProps[] = [
 export const PricingSection = () => {
   return (
     <section className='container py-24 sm:py-32'>
-      <h2 className='text-lg text-primary text-center mb-2 tracking-wider'>
+      <h2 className='text-lg text-primary text-center mb-2 tracking-wider text-gray-700'>
         Pricing
       </h2>
 
-      <h2 className='text-3xl md:text-4xl text-center font-bold mb-4'>
+      <h2 className='text-3xl md:text-4xl text-center font-bold mb-4 text-gray-700'>
         Get unlimited access
       </h2>
 
-      <h3 className='md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14'>
+      <h3 className='md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14 text-gray-700'>
         Choose the plan that fits your needs and gain full access to all our
         advanced image retouching tools and features.
       </h3>

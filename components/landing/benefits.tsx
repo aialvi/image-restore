@@ -38,12 +38,12 @@ export const BenefitsSection = () => {
     <section id='benefits' className='container py-24 sm:py-32'>
       <div className='grid lg:grid-cols-2 place-items-center lg:gap-24'>
         <div>
-          <h2 className='text-lg text-primary mb-2 tracking-wider'>Benefits</h2>
+          <h2 className='text-lg text-primary mb-2 tracking-wider text-gray-700'>Benefits</h2>
 
-          <h2 className='text-3xl md:text-4xl font-bold mb-4'>
+          <h2 className='text-3xl md:text-4xl font-bold mb-4 text-gray-700'>
             Transform Your Photos in Seconds
           </h2>
-          <p className='text-xl text-muted-foreground mb-8'>
+          <p className='text-xl text-muted-foreground mb-8 text-gray-700'>
             Achieve stunning results effortlessly with AI-driven tools that
             simplify photo retouching, making professional-quality enhancements
             accessible to everyone.
@@ -58,7 +58,7 @@ export const BenefitsSection = () => {
             >
               <CardHeader>
                 <div className='flex justify-between'>
-                  <span className='text-5xl text-muted-foreground/15 font-medium transition-all delay-75 group-hover/number:text-muted-foreground/30'>
+                  <span className='text-5xl text-muted-foreground/35 font-medium transition-all delay-75 group-hover/number:text-muted-foreground/30'>
                     0{index + 1}
                   </span>
                 </div>
@@ -66,7 +66,7 @@ export const BenefitsSection = () => {
                 <CardTitle>{title}</CardTitle>
               </CardHeader>
 
-              <CardContent className='text-muted-foreground'>
+              <CardContent className='text-gray-600'>
                 {description}
               </CardContent>
             </Card>

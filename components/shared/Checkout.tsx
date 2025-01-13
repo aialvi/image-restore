@@ -23,7 +23,7 @@ const Checkout = ({
 
   useEffect(() => {
     loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
-  }, []);
+  }, [toast]);
 
   useEffect(() => {
     // Check to see if this is a redirect back from Checkout

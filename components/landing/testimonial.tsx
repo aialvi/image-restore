@@ -79,11 +79,11 @@ export const TestimonialSection = () => {
   return (
     <section id='testimonials' className='container py-24 sm:py-32'>
       <div className='text-center mb-8'>
-        <h2 className='text-lg text-primary text-center mb-2 tracking-wider'>
+        <h2 className='text-lg text-primary text-center mb-2 tracking-wider text-gray-700'>
           Testimonials
         </h2>
 
-        <h2 className='text-3xl md:text-4xl text-center font-bold mb-4'>
+        <h2 className='text-3xl md:text-4xl text-center font-bold mb-4 text-gray-700'>
           Hear What Our 1000+ Clients Say
         </h2>
       </div>

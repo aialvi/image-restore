@@ -45,14 +45,14 @@ const serviceList: ServiceProps[] = [
 export const ServicesSection = () => {
   return (
     <section id='services' className='container py-24 sm:py-32'>
-      <h2 className='text-lg text-primary text-center mb-2 tracking-wider'>
+      <h2 className='text-lg text-primary text-center mb-2 tracking-wider text-gray-700'>
         Services
       </h2>
 
-      <h2 className='text-3xl md:text-4xl text-center font-bold mb-4'>
+      <h2 className='text-3xl md:text-4xl text-center font-bold mb-4 text-gray-700'>
         Enhance Your Visuals
       </h2>
-      <h3 className='md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8'>
+      <h3 className='md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8 text-gray-700'>
         Unlock the full potential of your images with cutting-edge AI tools
         designed to elevate your brand and captivate your audience.
       </h3>

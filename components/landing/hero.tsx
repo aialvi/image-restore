@@ -19,7 +19,7 @@ export const HeroSection = () => {
           <div className='max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold'>
             <h1>
               Why
-              <span className='text-transparent px-2 bg-gradient-to-r from-[#6347d2] to-[#1212d5] bg-clip-text'>
+              <span className='text-transparent px-2 bg-gradient-to-r from-[#373739] to-[#363642] bg-clip-text'>
                 ImageRestore
               </span>
               ?

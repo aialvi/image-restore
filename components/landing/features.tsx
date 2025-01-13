@@ -48,15 +48,15 @@ const featureList: FeaturesProps[] = [
 export const FeaturesSection = () => {
   return (
     <section id='features' className='container py-24 sm:py-32'>
-      <h2 className='text-lg text-primary text-center mb-2 tracking-wider'>
+      <h2 className='text-lg text-primary text-center mb-2 tracking-wider text-gray-700'>
         Features
       </h2>
 
-      <h2 className='text-3xl md:text-4xl text-center font-bold mb-4'>
+      <h2 className='text-3xl md:text-4xl text-center font-bold mb-4 text-gray-700'>
         What Makes Us Different
       </h2>
 
-      <h3 className='md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8'>
+      <h3 className='md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8 text-gray-700'>
         Discover the unique features that set ImageRestore apart and make it the
         go-to choice for photographers and designers.
       </h3>
@@ -66,7 +66,7 @@ export const FeaturesSection = () => {
           <div key={title}>
             <Card className='h-full bg-background border-0 shadow-none'>
               <CardHeader className='flex justify-center items-center'>
-                <div className='bg-primary/20 p-2 rounded-full ring-8 ring-primary/10 mb-4'>
+                <div className='bg-primary/20 p-2 rounded-full ring-8 ring-primary/50 mb-4'>
                   {/* <Icon
                     name={icon as keyof typeof icons}
                     size={24}
@@ -78,7 +78,7 @@ export const FeaturesSection = () => {
                 <CardTitle>{title}</CardTitle>
               </CardHeader>
 
-              <CardContent className='text-muted-foreground text-center'>
+              <CardContent className='text-gray-600'>
                 {description}
               </CardContent>
             </Card>
