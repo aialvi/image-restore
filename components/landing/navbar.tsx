@@ -8,7 +8,7 @@ const NavBar = () => {
     { label: 'Login', route: '/sign-in' },
   ];
   return (
-    <nav className='hidden md:flex items-center justify-between w-full px-8 py-4 bg-white shadow-md'>
+    <nav className='hidden md:flex items-center justify-between w-full px-8 py-4 bg-white border-b'>
       <Link href='/'>
         <span className='text-2xl text-gray-800 font-bold'>
           ImageRestore
